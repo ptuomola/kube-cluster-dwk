@@ -17,4 +17,3 @@ spec:
   targetNamespace: prometheus
   install:
     createNamespace: true
-    replicaCount: 2
