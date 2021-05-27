@@ -4,7 +4,7 @@ metadata:
   name: nats
   namespace: flux-system
 spec:
-  interval: 5m
+  interval: 1h 
   releaseName: my-nats
   targetNamespace: default
   chart:
@@ -14,4 +14,4 @@ spec:
         kind: HelmRepository
         name: nats
         namespace: flux-system
-      interval: 1m
+      interval: 1h
