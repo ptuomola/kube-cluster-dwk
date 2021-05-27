@@ -6,6 +6,7 @@ metadata:
 spec:
   interval: 5m
   releaseName: my-nats
+  targetNamespace: default
   chart:
     spec:
       chart: nats
