@@ -5,8 +5,8 @@ on:
     branches:
       - master
     paths:
-      - '4-gitops/app/**'
-      - '.github/workflows/gitops-app.yml'
+      - 4-gitops/app/**
+      - .github/workflows/gitops-app.yaml
 
 jobs:
   build:
